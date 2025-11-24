@@ -1,1 +1,122 @@
-index
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>AI You Can Use – Practical AI for Real People</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="AI You Can Use – simple, practical guides and resources that help real people use AI tools like ChatGPT at work and at home." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="logo">
+        <!-- Swap for your logo image if you have one -->
+        <span class="logo__mark">AI</span>
+        <span class="logo__text">You Can Use</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="watch.html">Watch</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Welcome to AI You Can Use</p>
+        <h1>Make AI actually useful in your real life.</h1>
+        <p class="hero__text">
+          No hype, no jargon—just simple ways to use tools like ChatGPT to save time at work, stay organized,
+          and get more done.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="https://youtube.com" target="_blank" rel="noopener">
+            Watch on YouTube
+          </a>
+          <a class="btn btn--ghost" href="blog.html">
+            Read the blog
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__media">
+        <!-- Replace with a screenshot or thumbnail of your channel -->
+        <div class="hero__thumbnail">
+          <span>Channel Preview</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Here section -->
+    <section class="section">
+      <div class="section__header">
+        <h2>Start here</h2>
+        <p>New to AI? These are the best places to begin.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>AI Basics: What ChatGPT Actually Is</h3>
+          <p>Understand what’s really happening behind the scenes—in plain English.</p>
+          <a href="blog/example-post.html" class="card__link">Read the guide</a>
+        </article>
+        <article class="card">
+          <h3>5 Prompts That Save You 5 Hours a Week</h3>
+          <p>Real-world examples you can copy, paste, and use today.</p>
+          <a href="blog/example-post.html" class="card__link">Try the prompts</a>
+        </article>
+        <article class="card">
+          <h3>Watch: Getting Started with ChatGPT</h3>
+          <p>A walkthrough of how to talk to ChatGPT so it actually helps you.</p>
+          <a href="watch.html" class="card__link">Watch the episode</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Resources preview -->
+    <section class="section section--alt">
+      <div class="section__header">
+        <h2>Free resources I’ve personally tested</h2>
+        <p>Templates, tools, and guides that I actually use myself.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>Beginner Prompt Pack</h3>
+          <p>Copy-paste prompts for email, planning, and brainstorming.</p>
+          <a href="resources.html" class="card__link">View all resources</a>
+        </article>
+        <article class="card">
+          <h3>Tool Recommendations</h3>
+          <p>AI tools I trust for real-world productivity.</p>
+          <a href="resources.html" class="card__link">Explore tools</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>© <span id="year"></span> AI You Can Use. All rights reserved.</p>
+      <p class="site-footer__meta">
+        Created by <span>Joe McLauchlan</span> · 
+        <a href="https://youtube.com" target="_blank" rel="noopener">YouTube</a> ·
+        <a href="https://twitch.tv" target="_blank" rel="noopener">Twitch</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Set footer year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
