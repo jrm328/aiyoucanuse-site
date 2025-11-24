@@ -1,1 +1,115 @@
-watch
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Watch – AI You Can Use</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Watch AI You Can Use on YouTube – simple, practical videos that help real people use AI tools like ChatGPT in everyday life." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__mark">AI</span>
+        <span class="logo__text">You Can Use</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="watch.html" aria-current="page">Watch</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <h1>Watch AI You Can Use</h1>
+      <p>Short, practical videos that show you how to use AI tools step-by-step.</p>
+    </section>
+
+    <!-- Featured playlist -->
+    <section class="section">
+      <div class="section__header">
+        <h2>Start with the basics</h2>
+        <p>Beginner-friendly videos that explain what AI tools like ChatGPT are and how to use them.</p>
+      </div>
+
+      <div class="hero__media">
+        <!-- Replace PLAYLIST_ID with your actual YouTube playlist ID -->
+        <iframe
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed?listType=playlist&list=PLAYLIST_ID"
+          title="AI You Can Use playlist"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Curated video list -->
+    <section class="section section--alt">
+      <div class="section__header">
+        <h2>Good places to start</h2>
+        <p>Hand-picked videos if you’re new here or want to level up fast.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>AI Basics: What ChatGPT Really Is</h3>
+          <p>Understand what’s happening behind the scenes, in plain language.</p>
+          <a
+            href="https://www.youtube.com/watch?v=VIDEO_ID_1"
+            target="_blank"
+            rel="noopener"
+            class="card__link">
+            Watch on YouTube
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Save 5 Hours a Week with These Prompts</h3>
+          <p>Real examples you can copy and start using right away for work and life.</p>
+          <a
+            href="https://www.youtube.com/watch?v=VIDEO_ID_2"
+            target="_blank"
+            rel="noopener"
+            class="card__link">
+            Watch on YouTube
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Talk to AI Like a Pro</h3>
+          <p>How to write prompts that get better answers without sounding like a robot.</p>
+          <a
+            href="https://www.youtube.com/watch?v=VIDEO_ID_3"
+            target="_blank"
+            rel="noopener"
+            class="card__link">
+            Watch on YouTube
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>© <span id="year"></span> AI You Can Use.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
